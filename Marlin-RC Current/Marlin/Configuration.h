@@ -211,10 +211,16 @@ Here are some standard links for getting your machine calibrated:
   #define K1 0.95 //smoothing factor within the PID
 
   // Hephestos i3
-  //Wades autotune
-  #define  DEFAULT_Kp 26.59
-  #define  DEFAULT_Ki 2.60
-  #define  DEFAULT_Kd 67.96
+  
+  //Wade Closet autotune
+  #define  DEFAULT_Kp 19.96
+  #define  DEFAULT_Ki 1.48
+  #define  DEFAULT_Kd 67.21
+
+  //Wades open air autotune
+//  #define  DEFAULT_Kp 26.59
+//  #define  DEFAULT_Ki 2.60
+//  #define  DEFAULT_Kd 67.96
 
 //  #define  DEFAULT_Kp 23.05
 //  #define  DEFAULT_Ki 2.00
@@ -410,7 +416,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 176
+#define X_MAX_POS 180
 #define Y_MAX_POS 185
 #define Z_MAX_POS 180
 
